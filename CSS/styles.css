@@ -28,11 +28,23 @@ h3{
     line-height: 21px;
     color: #2E2F42;
 }
+.studio:hover{
+    color: #4D5AE5;
+}
+.studio:active{
+    color: sandybrown;
+}
 .studio{
     font-family: "Raleway", sans-serif;;
     font-weight: 500;
     line-height: 24px;
     color: #2E2F42;
+}
+.portfolio:hover{
+    color: #4D5AE5;
+}
+.portfolio:active{
+    color: sandybrown;
 }
 .portfolio{
     font-family: "Raleway", sans-serif;;
@@ -40,15 +52,27 @@ h3{
     line-height: 24px;
     color: #2E2F42;
 }
+.contacts:hover{
+    color: #4D5AE5;
+}
+.contacts:active{
+    color: sandybrown;
+}
 .contacts{
     font-family: "Raleway", sans-serif;;
     font-weight: 500;
     line-height: 24px;
     color: #2E2F42;
 }
+.mail:hover{
+    color: #4D5AE5;
+}
 .mail{
     color: #434455;
     line-height: 24px;
+}
+.phone-number:hover{
+    color: #4D5AE5;
 }
 .phone-number{
     color: #434455;
@@ -60,8 +84,15 @@ h3{
     text-align: center;
 }
 .button-logo:hover{
-    color:  blueviolet;
+    color:  grey;
     cursor: pointer;
+}
+.button-logo{
+    background-color: #4D5AE5;
+}
+.text-buttom{
+    color: #FFFFFF;
+    font-weight: 500;
 }
 .logo{
     font-weight: 700;
