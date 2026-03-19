@@ -1,5 +1,5 @@
 body{
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
 }
 a{
@@ -9,74 +9,80 @@ ul{
     list-style-type: none;
 }
 h3{
-    font-family: "Raleway", sans-serif;;
+    font-family: "Roboto", sans-serif;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+}
+p{
+    font-family: "Roboto", sans-serif;
 }
 /* ----------header---------- */
 .web{
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
     color: #4D5AE5;
 }
 .studio-top{
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
     color: #2E2F42;
 }
 .studio:hover{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .studio:active{
     color: sandybrown;
 }
+.studio:focus{
+    color: #404bbf;
+}
 .studio{
     font-family: "Raleway", sans-serif;;
     font-weight: 500;
-    line-height: 24px;
     color: #2E2F42;
 }
 .portfolio:hover{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .portfolio:active{
     color: sandybrown;
 }
+.portfolio:focus{
+    color: #404bbf;
+}
 .portfolio{
     font-family: "Raleway", sans-serif;;
     font-weight: 500;
-    line-height: 24px;
     color: #2E2F42;
 }
 .contacts:hover{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .contacts:active{
     color: sandybrown;
 }
+.contacts:focus{
+    color: #404bbf;
+}
 .contacts{
     font-family: "Raleway", sans-serif;;
     font-weight: 500;
-    line-height: 24px;
     color: #2E2F42;
 }
 .mail:hover{
     color: #4D5AE5;
 }
 .mail{
+    font-style: normal;
     color: #434455;
-    line-height: 24px;
 }
 .phone-number:hover{
     color: #4D5AE5;
 }
 .phone-number{
+    font-style: normal;
     color: #434455;
-    line-height: 24px;
 }
 /* ----------main---------- */
 .hero-image{
@@ -84,8 +90,11 @@ h3{
     text-align: center;
 }
 .button-logo:hover{
-    color:  blue;
+    background-color: #404bbf;
     cursor: pointer;
+}
+.button-logo:focus{
+    color: #404bbf;
 }
 .button-logo{
     background-color: #4D5AE5;
@@ -97,7 +106,6 @@ h3{
 .logo{
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
     color: #FFFFFF;
 }
 .our-team{
@@ -113,7 +121,6 @@ h3{
 .our-portfolio{
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
     text-align: center;
 }
 /* ----------footer---------- */
@@ -124,8 +131,7 @@ footer{
     color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
 }
 .text{
-    color: #E7E9FC;
+    color: #F4F4FD;
 }
