@@ -6,20 +6,6 @@ body{
 ul{
     list-style-type: none;
 }
-h3{
-    font-family: "Roboto", sans-serif;
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-}
-p{
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
 .logo-top,
 .logo-bottom{
     text-decoration: none;
@@ -30,7 +16,7 @@ p{
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;    
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     line-height: 0.8;
 }
 .studio-top{
@@ -38,7 +24,7 @@ p{
     font-size: 18px;
     font-weight: 700;
     color: #2E2F42;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     line-height: 0.8;
 }
 .studio:hover{
@@ -56,7 +42,7 @@ p{
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .portfolio:hover{
     color: #404bbf;
@@ -73,7 +59,7 @@ p{
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .contacts:hover{
     color: #404bbf;
@@ -90,35 +76,49 @@ p{
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .mail:hover{
     color: #404bbf;
 }
 .mail:focus{
-    background-color: #404bbf;
+    color: #404bbf;
 }
 .mail{
     font-style: normal;
     color: #434455;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .phone-number:hover{
     color: #404bbf;
 }
 .phone-number:focus{
-    background-color: #404bbf;
+    color: #404bbf;
 }
 .phone-number{
     font-style: normal;
     color: #434455;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 /* ----------main---------- */
+.heading{
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.paragraph{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .hero-image{
     background-color: #2E2F42;
     text-align: center;
@@ -129,24 +129,34 @@ p{
 }
 .button-logo:focus{
     background-color: #404bbf;
+    cursor: pointer;
 }
 .button-logo{
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 .text-buttom{
     color: #FFFFFF;
     font-weight: 500;
+    letter-spacing: 0.04em;
 }
 .logo{
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
     line-height: 1;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 .our-team{
     background-color: #F4F4FD;
     text-align: center;
+}
+.heading-our-team{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 .card-one,
 .card-two,
@@ -177,9 +187,13 @@ footer{
     color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     line-height: 0.8;
 }
 .text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
