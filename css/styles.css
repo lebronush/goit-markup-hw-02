@@ -17,7 +17,7 @@ ul{
     font-size: 18px;
     color: #4D5AE5;    
     letter-spacing: 0.03em;
-    line-height: 0.8;
+    line-height: 1.17;
 }
 .studio-top{
     font-family: "Raleway", sans-serif;
@@ -25,7 +25,7 @@ ul{
     font-weight: 700;
     color: #2E2F42;
     letter-spacing: 0.03em;
-    line-height: 0.8;
+    line-height: 1.17;
 }
 .studio:hover{
     color: #404bbf;
@@ -134,17 +134,21 @@ ul{
 .button-logo{
     background-color: #4D5AE5;
     cursor: pointer;
+    line-height: 1.5;
+    font-size: 16px;
 }
-.text-buttom{
+.text-button{
     color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
+    font-size: 16px;
 }
 .logo{
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
-    line-height: 1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .our-team{
@@ -155,8 +159,9 @@ ul{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .card-one,
 .card-two,
@@ -168,6 +173,9 @@ ul{
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
 }
 .portfolio-one,
 .portfolio-two,
@@ -188,7 +196,7 @@ footer{
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.03em;
-    line-height: 0.8;
+    line-height: 1.17;
 }
 .text{
     font-family: "Roboto", sans-serif;
