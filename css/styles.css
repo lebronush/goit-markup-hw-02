@@ -1,9 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
-}
-a{
-    text-decoration: none;
+    background-color: #fff;
 }
 ul{
     list-style-type: none;
@@ -13,20 +11,35 @@ h3{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 p{
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.logo-top,
+.logo-bottom{
+    text-decoration: none;
 }
 /* ----------header---------- */
 .web{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #4D5AE5;
+    color: #4D5AE5;    
+    letter-spacing: 0.54px;
+    line-height: 0.8;
 }
 .studio-top{
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #2E2F42;
+    letter-spacing: 0.54px;
+    line-height: 0.8;
 }
 .studio:hover{
     color: #404bbf;
@@ -38,9 +51,12 @@ p{
     color: #404bbf;
 }
 .studio{
-    font-family: "Raleway", sans-serif;;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .portfolio:hover{
     color: #404bbf;
@@ -52,9 +68,12 @@ p{
     color: #404bbf;
 }
 .portfolio{
-    font-family: "Raleway", sans-serif;;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .contacts:hover{
     color: #404bbf;
@@ -66,23 +85,38 @@ p{
     color: #404bbf;
 }
 .contacts{
-    font-family: "Raleway", sans-serif;;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .mail:hover{
-    color: #4D5AE5;
+    color: #404bbf;
+}
+.mail:focus{
+    background-color: #404bbf;
 }
 .mail{
     font-style: normal;
     color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .phone-number:hover{
-    color: #4D5AE5;
+    color: #404bbf;
+}
+.phone-number:focus{
+    background-color: #404bbf;
 }
 .phone-number{
     font-style: normal;
     color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 /* ----------main---------- */
 .hero-image{
@@ -94,7 +128,7 @@ p{
     cursor: pointer;
 }
 .button-logo:focus{
-    color: #404bbf;
+    background-color: #404bbf;
 }
 .button-logo{
     background-color: #4D5AE5;
@@ -107,6 +141,8 @@ p{
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
+    line-height: 1;
+    letter-spacing: 1.12px;
 }
 .our-team{
     background-color: #F4F4FD;
@@ -123,6 +159,16 @@ p{
     font-weight: 700;
     text-align: center;
 }
+.portfolio-one,
+.portfolio-two,
+.portfolio-three,
+.portfolio-four,
+.portfolio-five,
+.portfolio-six{
+    text-decoration: none;
+
+}
+
 /* ----------footer---------- */
 footer{
     background-color: #2E2F42;
@@ -131,6 +177,8 @@ footer{
     color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
+    letter-spacing: 0.54px;
+    line-height: 0.8;
 }
 .text{
     color: #F4F4FD;
