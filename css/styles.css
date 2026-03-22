@@ -30,9 +30,7 @@ ul{
 .studio:hover{
     color: #404bbf;
 }
-.studio:active{
-    color: sandybrown;
-}
+.studio:active
 .studio:focus{
     color: #404bbf;
 }
@@ -47,9 +45,7 @@ ul{
 .portfolio:hover{
     color: #404bbf;
 }
-.portfolio:active{
-    color: sandybrown;
-}
+.portfolio:active
 .portfolio:focus{
     color: #404bbf;
 }
@@ -64,9 +60,7 @@ ul{
 .contacts:hover{
     color: #404bbf;
 }
-.contacts:active{
-    color: sandybrown;
-}
+.contacts:active
 .contacts:focus{
     color: #404bbf;
 }
